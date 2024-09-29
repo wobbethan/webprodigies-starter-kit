@@ -3,5 +3,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": "always",
         "source.organizeImports": "always"
-    }
+    },
+    "WillLuke.nextjs.hasPrompted": true,
+    "todo-tree.tree.showBadges": true
 }
