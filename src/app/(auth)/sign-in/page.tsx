@@ -1,10 +1,10 @@
-// import { GoogleAuthButton } from "@/components/global/google-oauth-button"
 import SignInForm from "@/components/forms/sign-in"
+import { GoogleAuthButton } from "@/components/global/google-oauth-button"
 import { Separator } from "@/components/ui/separator"
 
 const SignInPage = () => {
     return (
-        <>
+        <div>
             <h5 className="font-bold text-base text-themeTextWhite">Login</h5>
             <p className="text-themeTextGray leading-tight">
                 Network with people from around the world, join groups, create
@@ -17,8 +17,8 @@ const SignInPage = () => {
                 </div>
                 <Separator orientation="horizontal" className="bg-themeGray" />
             </div>
-            {/* <GoogleAuthButton method="signin" /> */}
-        </>
+            <GoogleAuthButton method="signin" />
+        </div>
     )
 }
 

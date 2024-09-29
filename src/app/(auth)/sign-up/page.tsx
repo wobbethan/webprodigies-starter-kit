@@ -6,7 +6,7 @@ type Props = {}
 
 const SignUpPage = (props: Props) => {
     return (
-        <>
+        <div>
             <h5 className="font-bold text-base text-themeTextWhite">Sign up</h5>
             <p className="text-themeTextGray leading-tight">
                 Network with people from around the world, join groups, create
@@ -20,7 +20,7 @@ const SignUpPage = (props: Props) => {
                 <Separator orientation="horizontal" className="bg-themeGray" />
             </div>
             <GoogleAuthButton method="signup" />
-        </>
+        </div>
     )
 }
 

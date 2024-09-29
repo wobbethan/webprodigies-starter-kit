@@ -66,3 +66,8 @@ export const onSignUpUser = async (data: {
         }
     }
 }
+
+export const onSignInUser = () => {
+    try {
+    } catch (error) {}
+}
